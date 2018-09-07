@@ -19,7 +19,7 @@ Params: -
 -
   name: $by
   type: integer
-  text: An integer by which to increment
+  text: An integer by which to decrement
 -
   name: $min
   type: integer
