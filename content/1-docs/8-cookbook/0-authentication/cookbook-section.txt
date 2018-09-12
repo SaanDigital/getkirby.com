@@ -18,6 +18,8 @@ Kirby's internal user system is not only made for Panel users, it can also be us
 
 This tutorial will guide you through the necessary steps to build a login form and a logout as well as protecting certain templates from unauthenticated users.
 
+Note that pages with content that should only be visible to authenticated users, should never be cached, otherwise it will be accessible to any site visitor.
+
 ## User management
 
 All users, including frontend users are managed via the (link: docs/panel/users text: Panel).
