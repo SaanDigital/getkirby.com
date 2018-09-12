@@ -6,7 +6,9 @@ Text:
 
 (toc)
 
-For complex sites with lots of content or high amounts of traffic it might make sense to switch on Kirby's cache. Kirby' cache stores the entire result of a rendered page. As long as the cache is valid, visitors will be served the cached version which is pretty close in performance to a static html file.
+For complex sites with lots of content or high amounts of traffic it might make sense to switch on Kirby's cache. Kirby's cache stores the entire result of a rendered page. As long as the cache is valid, visitors will be served the cached version which is pretty close in performance to a static html file.
+
+Note that pages with content that should only be visible to authenticated users, should never be cached, otherwise it will be accessible to any site visitor. Also, forms will not work on cached pages, nor will any sort of dynamic content (shuffling, random content). If you want to cache content heavy pages with dynamic content, you can use a custom cache.
 
 ## Activating the cache
 
