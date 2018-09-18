@@ -16,7 +16,7 @@ text: the generated html
 ----
 
 Params: - 
-  name: $href
+  name: $email
   type: string
   text: The url for the a tag
 - 
