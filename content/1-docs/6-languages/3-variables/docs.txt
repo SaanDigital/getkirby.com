@@ -52,6 +52,20 @@ l::set(array(
 ));
 ```
 
+<since v="2.4.0">
+Instead of `.php` files you can also use `.yml` files to define language variables:
+
+For example, `/site/languages/en.yml`:
+
+```
+submit: Submit
+cancel: Cancel
+next: next
+previous: previous
+```
+
+</since>
+
 Those translated variables can be used in any template, plugin or snippet:
 
 ```php
