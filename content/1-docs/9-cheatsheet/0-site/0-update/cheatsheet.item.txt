@@ -1,12 +1,22 @@
 Title:
 
-{{class.instance}}->update($data = array())
+{{class.instance}}->update($data = array()[,$lang = null])
 
 ----
 
 Excerpt:
 
 Updates all given site variables, which are stored in site.txt
+
+----
+Params: -
+  name: $data
+  type: array
+  text: The sitte data to be updated
+-
+  name: $language
+  type: string
+  text: Optional, language code (only in case of a multi-language site)
 
 ----
 
