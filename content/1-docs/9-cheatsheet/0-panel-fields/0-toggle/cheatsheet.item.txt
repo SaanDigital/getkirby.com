@@ -16,11 +16,13 @@ The toggle field is a shortcut for a radiobuttons list with yes/no or on/off opt
 
 ```
 fields:
-  toggle:
+  featured:
     label: Is this a featured page?
     type: toggle
     text: yes/no
 ```
+
+** Note: Do not name the toggle field `toggle` as this will cause issues.**
 
 Available text options are
 
