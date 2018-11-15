@@ -137,4 +137,6 @@ You can find more about (link: docs/cheatsheet#validators text: Kirby's input va
 
 ## Reporting security issues
 
-If you found a vulnerability in Kirby's core or the Panel, please make sure to let us know immediately. We take any report very seriously. You can always write us directly at <support@getkirby.com>
+If you found a vulnerability in Kirby's core or the Panel, please make sure to let us know immediately. We take any report very seriously. You can always write us directly at <security@getkirby.com>
+
+Our PGP key can be found on our Keybase profile: https://keybase.io/getkirby
