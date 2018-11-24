@@ -15,7 +15,7 @@ Params: -
   type: string
   text: Location of output of the string
 -
-  name: $context
+  name: $strict
   type: string
   text: Whether to escape an extended set of characters (HTML attributes only)
 
